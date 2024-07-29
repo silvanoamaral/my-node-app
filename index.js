@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 // Defina suas rotas aqui
-app.get('/api/hello', (req, res) => {
+app.get('/api/webshopify', (req, res) => {
   res.send('Hello from Node.js!');
 });
 
